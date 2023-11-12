@@ -13,6 +13,8 @@
 #include "lilygoS3Dongle.h"
 #elif defined(ESP32_2432S028R)
 #include "esp322432s028r.h"
+#elif defined(ESP32_ELEKSTUBE)
+#include "esp32Elekstube.h"
 #elif defined(NERMINER_T_QT)
 #include "lilygoT_QT.h"
 #elif defined(NERDMINER_T_DISPLAY_V1)

@@ -48,7 +48,7 @@ int saveIntervalsSize = sizeof(saveIntervals)/sizeof(saveIntervals[0]);
 int currentIntervalIndex = 0;
 
 bool checkPoolConnection(void) {
-  
+   
   if (client.connected()) {
     return true;
   }
